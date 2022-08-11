@@ -12,14 +12,29 @@ The peaks shown are around marketing campaigns. Consequently, one would assume t
 •	Platform: platform transaction took place
 •	Fee_usd: fee in usd
 •	Volume: transaction volume in usd
+
+<ul>
+ <li><code>From</code>: sender’s wallet</li>
+ <li><code>To</code>: recipient’s wallet</li>
+ <li><code>Source token</code>: token from the sender</li>
+ <li><code>Dest_token</code>: token of the recipient</li>
+ <li><code>Time</code>: unix time</li>
+ <li><code>Platform</code>: platform transaction took place</li>
+ <li><code>Fee_usd</code>: fee in usd</li>
+ <li><code>Volume</code>: transaction volume in usd</li>
+</ul>
 ## Dex_daily: transaction data of the market
-•	Txn: number of transaction in a given day
-•	Volume: volume of transaction in a given day
+<ul>
+ <li><code>Txn</code>: number of transaction in a given day</li>
+ <li><code>Volume</code>: volume of transaction in a given day</li>
+</ul>
 ## Marketing Campaign:
 ### Target
-•	Cost: cost of marketing campaign
-•	No. prizes: number of prizes rewarded
-•	Volume (target): expected volume generated
+<ul>
+ <li><code>Cost</code>: cost of marketing campaign</li>
+ <li><code>No. prizes</code>: number of prizes rewarded</li>
+ <li><code>Volume (target)</code>: expected volume generated</li>
+</ul>
 ### Actual
 <ul>
  <li><code>Wallets</code>: number of distinct wallets, one person can have multiple wallets</li>
