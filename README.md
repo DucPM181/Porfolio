@@ -4,15 +4,6 @@ The volume of transaction on platforms has been decreasing from the beginning of
 The peaks shown are around marketing campaigns. Consequently, one would assume that marketing campaigns may have impacts on the decline of transaction volume. However, the impact of the market in general also might play a role in the phenomenon. As a result, there are 3 factors to be considered in the study:
  
 ## Raw data: transaction data of the platform
-•	From: sender’s wallet
-•	To: recipient’s wallet
-•	Source token: token from the sender
-•	Dest_token: token of the recipient
-•	Time: unix time
-•	Platform: platform transaction took place
-•	Fee_usd: fee in usd
-•	Volume: transaction volume in usd
-
 <ul>
  <li><code>From</code>: sender’s wallet</li>
  <li><code>To</code>: recipient’s wallet</li>
@@ -23,11 +14,13 @@ The peaks shown are around marketing campaigns. Consequently, one would assume t
  <li><code>Fee_usd</code>: fee in usd</li>
  <li><code>Volume</code>: transaction volume in usd</li>
 </ul>
+
 ## Dex_daily: transaction data of the market
 <ul>
  <li><code>Txn</code>: number of transaction in a given day</li>
  <li><code>Volume</code>: volume of transaction in a given day</li>
 </ul>
+
 ## Marketing Campaign:
 ### Target
 <ul>
@@ -35,6 +28,7 @@ The peaks shown are around marketing campaigns. Consequently, one would assume t
  <li><code>No. prizes</code>: number of prizes rewarded</li>
  <li><code>Volume (target)</code>: expected volume generated</li>
 </ul>
+
 ### Actual
 <ul>
  <li><code>Wallets</code>: number of distinct wallets, one person can have multiple wallets</li>
