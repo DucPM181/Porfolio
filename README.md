@@ -1,10 +1,9 @@
-# Porfolio
-Marketing Campaign Analysis
+# Marketing Campaign Analysis
 The volume of transaction on platforms has been decreasing from the beginning of the year. 
  
 The peaks shown are around marketing campaigns. Consequently, one would assume that marketing campaigns may have impacts on the decline of transaction volume. However, the impact of the market in general also might play a role in the phenomenon. As a result, there are 3 factors to be considered in the study:
  
-Raw data: transaction data of the 
+## Raw data: transaction data of the platform
 •	From: sender’s wallet
 •	To: recipient’s wallet
 •	Source token: token from the sender
@@ -13,18 +12,20 @@ Raw data: transaction data of the
 •	Platform: platform transaction took place
 •	Fee_usd: fee in usd
 •	Volume: transaction volume in usd
-Dex_daily:
+## Dex_daily: transaction data of the market
 •	Txn: number of transaction in a given day
 •	Volume: volume of transaction in a given day
-Marketing Campaign:
-Target
+## Marketing Campaign:
+### Target
 •	Cost: cost of marketing campaign
 •	No. prizes: number of prizes rewarded
 •	Volume (target): expected volume generated
-Actual
-•	Wallets: number of distinct wallets, one person can have multiple wallets
-•	Txn Count: number of transaction aggregated 
-•	Vol/Wallet: average volume generated over 1 waller
-•	Vol/Txn: average volume generated of 1 transaction
-•	Cost/wallet: cost for each wallet to make a transaction
-•	Vol/dollar spent: volume generated for each dollar spent
+### Actual
+<ul>
+ <ul>Wallets: number of distinct wallets, one person can have multiple wallets</li>
+ <li>Txn Count: number of transaction aggregated</li>
+ <li>Vol/Wallet: average volume generated over 1 waller</li>
+ <li>Vol/Txn: average volume generated of 1 transaction</li>
+ <li>Cost/wallet: cost for each wallet to make a transaction</li>
+ <li>Vol/dollar spent: volume generated for each dollar spent</li>
+</ul>
