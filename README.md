@@ -4,6 +4,8 @@ The volume of transaction on platforms has been decreasing from the beginning of
 ![market volume](https://user-images.githubusercontent.com/109945351/184063452-a28f62f7-0438-4a72-85f5-d57f1ac1adef.png)
  
 The peaks shown are around marketing campaigns. Consequently, one would assume that marketing campaigns may have impacts on the decline of transaction volume. However, the impact of the market in general also might play a role in the phenomenon. As a result, there are 3 factors to be considered in the study:
+
+![Impact](https://user-images.githubusercontent.com/109945351/184064670-fe207ef7-217b-4976-82be-49266d567d21.png)
  
 ## Raw data: transaction data of the platform
 <ul>
